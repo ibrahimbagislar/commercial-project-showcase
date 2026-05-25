@@ -1,0 +1,23 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Keep this repository documentation-only.
+*.cs
+*.csproj
+*.sln
+*.json
+*.config
+*.sql
+*.db
+*.sqlite
+*.bak
+*.pubxml
+*.user
+bin/
+obj/
+.vs/
+node_modules/
+dist/
+build/
