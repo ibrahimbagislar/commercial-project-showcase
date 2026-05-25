@@ -1,6 +1,6 @@
-# Ticari Proje Vitrini
+# Gerçek Müşteri Projeleri
 
-Bu repo, ticari projelerde geliştirdiğim sistemlerin kaynak kodlarını değil; proje kapsamını, canlı bağlantılarını, kullandığım teknolojileri ve üstlendiğim geliştirme alanlarını özetleyen portföy dokümantasyonunu içerir.
+Bu repo, gerçek müşteriler için geliştirdiğim ticari web projelerinin kaynak kodlarını değil; proje kapsamını, canlı bağlantılarını, kullandığım teknolojileri ve üstlendiğim geliştirme alanlarını özetleyen portföy dokümantasyonunu içerir.
 
 Kod tabanları müşteri ve üretim ortamı güvenliği nedeniyle public paylaşılmamaktadır. Buradaki amaç, gerçek kullanımda olan iki web projesinin teknik kapsamını ve ürün tarafındaki karşılığını açık şekilde göstermektir.
 
