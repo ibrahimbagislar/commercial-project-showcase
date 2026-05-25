@@ -1,12 +1,12 @@
 # NovaMira Real Estate
 
-Live site: [novamirarealestate.com](https://novamirarealestate.com)
+Canlı site: [novamirarealestate.com](https://novamirarealestate.com)
 
 NovaMira Real Estate, emlak ilanlarının web üzerinden yayınlanması ve yönetilmesi için geliştirdiğim ticari bir real estate platformudur. Projede public tarafta ilan listeleme, ilan detayları, arama/filtreleme ve kurumsal sayfalar bulunurken; yönetim tarafında ilan, kategori, medya, kullanıcı ve site ayarları için ayrı bir admin deneyimi tasarlandı.
 
 Kaynak kod ticari proje kapsamında private tutulmaktadır. Bu doküman, projenin teknik kapsamını ve geliştirilen ana parçaları özetler.
 
-## Scope
+## Proje Kapsamı
 
 - Emlak ilan listeleme ve ilan detay sayfaları
 - Kategori ve alt kategori yönetimi
@@ -19,7 +19,7 @@ Kaynak kod ticari proje kapsamında private tutulmaktadır. Bu doküman, projeni
 - Türkiye il/ilçe/mahalle verileriyle lokasyon seçimi
 - Arama ve filtreleme davranışlarının loglanması
 
-## Architecture
+## Mimari
 
 NovaMira iki ayrı yapıdan oluşur:
 
@@ -34,7 +34,7 @@ Backend tarafında Clean Architecture yaklaşımına yakın bir ayrım kullanıl
 - `Infrastructure`: Auth, token, storage ve dış servis entegrasyonları
 - `Presentation/API`: REST endpointleri ve Swagger/OpenAPI katmanı
 
-## Technical Highlights
+## Teknik Öne Çıkanlar
 
 - ASP.NET Core 8
 - Entity Framework Core ve SQL Server
@@ -49,7 +49,7 @@ Backend tarafında Clean Architecture yaklaşımına yakın bir ayrım kullanıl
 - Swagger/OpenAPI dokümantasyonu
 - API versioning
 
-## Main Modules
+## Ana Modüller
 
 - Auth: login, token refresh, current user bilgisi
 - Users: kullanıcı oluşturma, rol oluşturma, profil güncelleme, şifre değiştirme
@@ -59,6 +59,6 @@ Backend tarafında Clean Architecture yaklaşımına yakın bir ayrım kullanıl
 - Dashboard: ilan, kullanıcı, lokasyon ve arama istatistikleri
 - Turkey data: il, ilçe, mahalle, köy ve lokasyon verileri
 
-## Result
+## Sonuç
 
 Proje, emlak işletmesinin ilanlarını merkezi bir panelden yönetmesini ve ziyaretçilerin güncel ilanları filtreleyerek incelemesini sağlayan canlı bir platform olarak yayına alındı.

@@ -1,12 +1,12 @@
 # Erdem Kebap
 
-Live site: [erdemkebap.com](https://erdemkebap.com)
+Canlı site: [erdemkebap.com](https://erdemkebap.com)
 
 Erdem Kebap, restoranın dijital varlığını yönetmek için geliştirdiğim ticari web projesidir. Site tarafında restoran tanıtımı, menü, galeri, iletişim ve marka hikayesi öne çıkarılırken; admin tarafında ürün, kategori, paket menü, içerik ve iletişim mesajları yönetilebilecek şekilde yapı kuruldu.
 
 Kaynak kod ticari proje kapsamında private tutulmaktadır. Bu doküman, projenin teknik kapsamını ve geliştirilen ana parçaları özetler.
 
-## Scope
+## Proje Kapsamı
 
 - Restoran ana sayfası
 - Hakkımızda, galeri ve iletişim sayfaları
@@ -18,7 +18,7 @@ Kaynak kod ticari proje kapsamında private tutulmaktadır. Bu doküman, projeni
 - İletişim formu ve mesaj yönetimi
 - Admin login ve yönetim arayüzü
 
-## Architecture
+## Mimari
 
 Proje frontend ve backend olarak iki ana bölümden oluşur:
 
@@ -32,7 +32,7 @@ Backend tarafı katmanlı yapıdadır:
 - `Infrastructure`: EF Core repositoryleri, cache ve görsel depolama servisleri
 - `Api`: REST endpointleri, CORS, Swagger/OpenAPI ve uygulama giriş noktası
 
-## Technical Highlights
+## Teknik Öne Çıkanlar
 
 - ASP.NET Core 8
 - Entity Framework Core ve SQL Server
@@ -44,7 +44,7 @@ Backend tarafı katmanlı yapıdadır:
 - Admin API key yaklaşımı
 - Responsive web arayüzü
 
-## Main Modules
+## Ana Modüller
 
 - Categories: menü kategorileri için CRUD işlemleri
 - Products: ürün oluşturma, güncelleme, silme ve listeleme
@@ -55,6 +55,6 @@ Backend tarafı katmanlı yapıdadır:
 - Contact Messages: iletişim mesajlarını alma, okundu işaretleme ve silme
 - Admin Frontend: ürün, kategori, içerik, görünüm, paket menü ve mesaj ekranları
 
-## Result
+## Sonuç
 
 Proje, restoranın menüsünü ve temel site içeriklerini kod değişikliği gerektirmeden yönetebileceği, ziyaretçilerin de güncel menü ve iletişim bilgilerine hızlıca ulaşabileceği canlı bir web sistemi olarak yayına alındı.
